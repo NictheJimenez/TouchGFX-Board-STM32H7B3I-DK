@@ -1,0 +1,2412 @@
+{
+  "Application": {
+    "Screens": [
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "background_Screen2.png",
+            "Alpha": 255,
+            "Name": "backgroundImage",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_00.png",
+                "Released": "menu_button_00.png",
+                "Alpha": 255,
+                "Name": "button1",
+                "X": 0,
+                "Y": 0,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_01.png",
+                "Released": "menu_button_01.png",
+                "Alpha": 255,
+                "Name": "button2",
+                "X": 0,
+                "Y": 50,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_02.png",
+                "Released": "menu_button_02.png",
+                "Alpha": 255,
+                "Name": "button3",
+                "X": 0,
+                "Y": 100,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_03.png",
+                "Released": "menu_button_03.png",
+                "Alpha": 255,
+                "Name": "button4",
+                "X": 0,
+                "Y": 150,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_04.png",
+                "Released": "menu_button_04.png",
+                "Alpha": 255,
+                "Name": "button5",
+                "X": 0,
+                "Y": 200,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "SlideMenu",
+            "FileNameBackground": "left_slide_menu_background.png",
+            "BackgroundX": 0,
+            "BackgroundY": 0,
+            "UseButton": true,
+            "FileNameButtonPressed": "left_slide_menu_button.png",
+            "FileNameButtonReleased": "left_slide_menu_button.png",
+            "ButtonX": 50,
+            "ButtonY": 110,
+            "State": "Collapsed",
+            "ExpandDirection": "East",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 25,
+            "HiddenPixelsWhenExpanded": 0,
+            "ExpandedStateTimeout": 3000,
+            "Name": "slideMenuLeft",
+            "X": 0,
+            "Y": 0,
+            "Width": 74,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_00.png",
+                "Released": "menu_toggle_button_00.png",
+                "Alpha": 255,
+                "Name": "toggleButton1",
+                "X": 25,
+                "Y": 0,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_01.png",
+                "Released": "menu_toggle_button_01.png",
+                "Alpha": 255,
+                "Name": "toggleButton2",
+                "X": 25,
+                "Y": 50,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_02.png",
+                "Released": "menu_toggle_button_02.png",
+                "Alpha": 255,
+                "Name": "toggleButton3",
+                "X": 25,
+                "Y": 100,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_03.png",
+                "Released": "menu_toggle_button_03.png",
+                "Alpha": 255,
+                "Name": "toggleButton4",
+                "X": 25,
+                "Y": 150,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "SlideMenu",
+            "FileNameBackground": "right_slide_menu_background.png",
+            "BackgroundX": 18,
+            "BackgroundY": 0,
+            "UseButton": true,
+            "FileNameButtonPressed": "right_slide_menu_button.png",
+            "FileNameButtonReleased": "right_slide_menu_button.png",
+            "ButtonX": 0,
+            "ButtonY": 110,
+            "State": "Collapsed",
+            "ExpandDirection": "West",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 25,
+            "HiddenPixelsWhenExpanded": 0,
+            "ExpandedStateTimeout": 3000,
+            "Name": "slideMenuRight",
+            "X": 405,
+            "Y": 0,
+            "Width": 75,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_00.png",
+                "Released": "menu_toggle_button_00.png",
+                "Alpha": 255,
+                "Name": "toggleButton5",
+                "X": 15,
+                "Y": 24,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_01.png",
+                "Released": "menu_toggle_button_01.png",
+                "Alpha": 255,
+                "Name": "toggleButton6",
+                "X": 80,
+                "Y": 24,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_02.png",
+                "Released": "menu_toggle_button_02.png",
+                "Alpha": 255,
+                "Name": "toggleButton7",
+                "X": 145,
+                "Y": 24,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "ToggleButton",
+                "InitialStatePressed": false,
+                "Pressed": "menu_toggle_button_selected_03.png",
+                "Released": "menu_toggle_button_03.png",
+                "Alpha": 255,
+                "Name": "toggleButton8",
+                "X": 210,
+                "Y": 24,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "SlideMenu",
+            "FileNameBackground": "bottom_slide_menu_background.png",
+            "BackgroundX": 0,
+            "BackgroundY": 17,
+            "UseButton": true,
+            "FileNameButtonPressed": "bottom_slide_menu_button.png",
+            "FileNameButtonReleased": "bottom_slide_menu_button.png",
+            "ButtonX": 212,
+            "ButtonY": 0,
+            "State": "Collapsed",
+            "ExpandDirection": "North",
+            "Easing": "Cubic",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 25,
+            "HiddenPixelsWhenExpanded": 0,
+            "ExpandedStateTimeout": 3000,
+            "Name": "slideMenuBottom",
+            "X": 0,
+            "Y": 198,
+            "Width": 480,
+            "Height": 74,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Components": [
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_00.png",
+                "Released": "menu_button_00.png",
+                "Alpha": 255,
+                "Name": "button6",
+                "X": 0,
+                "Y": 20,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_01.png",
+                "Released": "menu_button_01.png",
+                "Alpha": 255,
+                "Name": "button7",
+                "X": 50,
+                "Y": 20,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_02.png",
+                "Released": "menu_button_02.png",
+                "Alpha": 255,
+                "Name": "button8",
+                "X": 100,
+                "Y": 20,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_03.png",
+                "Released": "menu_button_03.png",
+                "Alpha": 255,
+                "Name": "button9",
+                "X": 150,
+                "Y": 20,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              },
+              {
+                "Type": "Button",
+                "Pressed": "menu_button_pressed_04.png",
+                "Released": "menu_button_04.png",
+                "Alpha": 255,
+                "Name": "button10",
+                "X": 200,
+                "Y": 20,
+                "Width": 50,
+                "Height": 50,
+                "Visible": true,
+                "LockPosition": false,
+                "Draggable": false,
+                "Clickable": false,
+                "Fadeable": false,
+                "Moveable": false
+              }
+            ],
+            "Type": "SlideMenu",
+            "FileNameBackground": "top_slide_menu_background.png",
+            "BackgroundX": 0,
+            "BackgroundY": 0,
+            "UseButton": true,
+            "FileNameButtonPressed": "top_slide_menu_button.png",
+            "FileNameButtonReleased": "top_slide_menu_button.png",
+            "ButtonX": 212,
+            "ButtonY": 70,
+            "State": "Collapsed",
+            "ExpandDirection": "South",
+            "Easing": "Back",
+            "EasingOption": "InOut",
+            "AnimationDuration": 300,
+            "VisiblePixelsWhenCollapsed": 25,
+            "HiddenPixelsWhenExpanded": 20,
+            "ExpandedStateTimeout": 3000,
+            "Name": "slideMenuTop",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 94,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "Alpha": 255,
+            "Name": "buttonmain",
+            "X": 195,
+            "Y": 100,
+            "Width": 97,
+            "Height": 60,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId27",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "Wifi",
+            "X": 84,
+            "Y": 38,
+            "Width": 302,
+            "Height": 49,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerSlideMenuStateChanged",
+              "TriggerComponent": "slideMenuTop"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Main collapseAllOtherSlideMenu",
+              "ParameterValue": "src",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction2",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerSlideMenuStateChanged",
+              "TriggerComponent": "slideMenuBottom"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Main collapseAllOtherSlideMenu",
+              "ParameterValue": "src",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction3",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerSlideMenuStateChanged",
+              "TriggerComponent": "slideMenuRight"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Main collapseAllOtherSlideMenu",
+              "ParameterValue": "src",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction4",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerSlideMenuStateChanged",
+              "TriggerComponent": "slideMenuLeft"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Main collapseAllOtherSlideMenu",
+              "ParameterValue": "src",
+              "ActionComponent": "Main"
+            }
+          },
+          {
+            "InteractionName": "Interaction5",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button1"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuLeft"
+            }
+          },
+          {
+            "InteractionName": "Interaction6",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button2"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuLeft"
+            }
+          },
+          {
+            "InteractionName": "Interaction7",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button3"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuLeft"
+            }
+          },
+          {
+            "InteractionName": "Interaction8",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button4"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuLeft"
+            }
+          },
+          {
+            "InteractionName": "Interaction9",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button5"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuLeft"
+            }
+          },
+          {
+            "InteractionName": "Interaction10",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button6"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuTop"
+            }
+          },
+          {
+            "InteractionName": "Interaction11",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button7"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuTop"
+            }
+          },
+          {
+            "InteractionName": "Interaction12",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button8"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuTop"
+            }
+          },
+          {
+            "InteractionName": "Interaction13",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button9"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuTop"
+            }
+          },
+          {
+            "InteractionName": "Interaction14",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "button10"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuTop"
+            }
+          },
+          {
+            "InteractionName": "Interaction15",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton1"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuRight"
+            }
+          },
+          {
+            "InteractionName": "Interaction16",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton2"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuRight"
+            }
+          },
+          {
+            "InteractionName": "Interaction17",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton3"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuRight"
+            }
+          },
+          {
+            "InteractionName": "Interaction18",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton4"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuRight"
+            }
+          },
+          {
+            "InteractionName": "Interaction19",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton5"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuBottom"
+            }
+          },
+          {
+            "InteractionName": "Interaction20",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton6"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuBottom"
+            }
+          },
+          {
+            "InteractionName": "Interaction21",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton7"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuBottom"
+            }
+          },
+          {
+            "InteractionName": "Interaction22",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "toggleButton8"
+            },
+            "Action": {
+              "Type": "ActionResetTimer",
+              "ActionComponent": "slideMenuBottom"
+            }
+          },
+          {
+            "InteractionName": "Interaction23",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked"
+            },
+            "Action": {
+              "Type": "ActionNone"
+            }
+          },
+          {
+            "InteractionName": "Interaction24",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonmain"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen2"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "collapseAllOtherSlideMenu",
+            "HasValue": true,
+            "ValueType": "const touchgfx::SlideMenu&"
+          }
+        ],
+        "Name": "Main",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "background_Screen1.png",
+            "Alpha": 255,
+            "Name": "background",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId1",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 171,
+              "Green": 171,
+              "Blue": 171
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textAreaHourCaption",
+            "X": 101,
+            "Y": 51,
+            "Width": 48,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId2",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 171,
+              "Green": 171,
+              "Blue": 171
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId3",
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Name": "textAreaHour",
+            "X": 100,
+            "Y": 76,
+            "Width": 51,
+            "Height": 49,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId4",
+            "ReleasedColor": {
+              "Red": 66,
+              "Green": 66,
+              "Blue": 66
+            },
+            "PressedColor": {
+              "Red": 166,
+              "Green": 166,
+              "Blue": 166
+            },
+            "TextRotation": "0",
+            "Name": "buttonSaveHour",
+            "X": 100,
+            "Y": 136,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "Up_arrow_pressed.png",
+            "Released": "Up_arrow.png",
+            "Alpha": 255,
+            "Name": "buttonHourUp",
+            "X": 183,
+            "Y": 51,
+            "Width": 32,
+            "Height": 19,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "Down_arrow_pressed.png",
+            "Released": "Down_arrow.png",
+            "Alpha": 255,
+            "Name": "buttonHourDown",
+            "X": 183,
+            "Y": 106,
+            "Width": 32,
+            "Height": 19,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "Up_arrow_pressed.png",
+            "Released": "Up_arrow.png",
+            "Alpha": 255,
+            "Name": "buttonMinuteUp",
+            "X": 265,
+            "Y": 51,
+            "Width": 32,
+            "Height": 19,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "Down_arrow_pressed.png",
+            "Released": "Down_arrow.png",
+            "Alpha": 255,
+            "Name": "buttonMinuteDown",
+            "X": 265,
+            "Y": 106,
+            "Width": 32,
+            "Height": 19,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId5",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 171,
+              "Green": 171,
+              "Blue": 171
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textAreaMinuteCaption",
+            "X": 316,
+            "Y": 51,
+            "Width": 67,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId6",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 171,
+              "Green": 171,
+              "Blue": 171
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId7",
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Name": "textAreaMinute",
+            "X": 324,
+            "Y": 76,
+            "Width": 51,
+            "Height": 49,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId8",
+            "ReleasedColor": {
+              "Red": 66,
+              "Green": 66,
+              "Blue": 66
+            },
+            "PressedColor": {
+              "Red": 166,
+              "Green": 166,
+              "Blue": 166
+            },
+            "TextRotation": "0",
+            "Name": "buttonSaveMinute",
+            "X": 316,
+            "Y": 136,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressed.png",
+            "Released": "btn_round.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId9",
+            "ReleasedColor": {
+              "Red": 66,
+              "Green": 66,
+              "Blue": 66
+            },
+            "PressedColor": {
+              "Red": 166,
+              "Green": 166,
+              "Blue": 166
+            },
+            "TextRotation": "0",
+            "Name": "buttonClock",
+            "X": 192,
+            "Y": 190,
+            "Width": 97,
+            "Height": 60,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Hourupbuttonisclicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonHourUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonHourUpClicked"
+            }
+          },
+          {
+            "InteractionName": "Hourdownbuttonisclicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonHourDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonHourDownClicked"
+            }
+          },
+          {
+            "InteractionName": "Minuteupbuttonisclicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonMinuteUp"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonMinuteUpClicked"
+            }
+          },
+          {
+            "InteractionName": "Minutedownbuttonisclicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonMinuteDown"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonMinuteDownClicked"
+            }
+          },
+          {
+            "InteractionName": "SaveHourbuttonisclicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSaveHour"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonSaveHourClicked"
+            }
+          },
+          {
+            "InteractionName": "SaveMinutebuttonisclicked",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSaveMinute"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "buttonSaveMinuteClicked"
+            }
+          },
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonClock"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionWipe",
+              "ScreenTransitionDirection": "North",
+              "ActionComponent": "Screen3"
+            }
+          }
+        ],
+        "Name": "Screen2",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "background_Screen2.png",
+            "Alpha": 255,
+            "Name": "background",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "configuration.png",
+            "Released": "configuration.png",
+            "Alpha": 255,
+            "Name": "buttonSettings",
+            "X": 423,
+            "Y": 6,
+            "Width": 48,
+            "Height": 48,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Circle",
+            "Color": {
+              "Red": 186,
+              "Green": 186,
+              "Blue": 186
+            },
+            "CenterX": 100,
+            "CenterY": 100,
+            "Radius": 72,
+            "LineWidth": 6,
+            "StartAngle": 0,
+            "EndAngle": 180,
+            "CapPrecision": "Triangle",
+            "Alpha": 255,
+            "Name": "circle",
+            "X": 479,
+            "Y": 36,
+            "Width": 200,
+            "Height": 200,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId10",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 171,
+              "Green": 171,
+              "Blue": 171
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId11",
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Wildcard2": {
+              "TextId": "SingleUseId12",
+              "UseBuffer": true,
+              "BufferSize": 3
+            },
+            "Name": "textClock",
+            "X": -156,
+            "Y": 109,
+            "Width": 156,
+            "Height": 54,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ChangetoScreen",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonSettings"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionSlide",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Screen4"
+            }
+          },
+          {
+            "InteractionName": "Movecircleintoplace",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 140,
+              "Y": 36,
+              "Easing": "Cubic",
+              "EasingOption": "Out",
+              "Duration": 750,
+              "ActionComponent": "circle"
+            }
+          },
+          {
+            "InteractionName": "Movetextclockintoplace",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionMove",
+              "X": 162,
+              "Y": 109,
+              "Easing": "Cubic",
+              "EasingOption": "Out",
+              "Duration": 750,
+              "ActionComponent": "textClock"
+            }
+          }
+        ],
+        "Name": "Screen3",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 7200
+      },
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 13,
+              "Green": 12,
+              "Blue": 12
+            },
+            "Alpha": 255,
+            "Name": "boxBackground",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "background_Screen2.png",
+            "Alpha": 255,
+            "Name": "background",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScrollWheel",
+            "SelectedItemOffset": 153,
+            "UseSelectedStyle": false,
+            "ExtraSizeBefore": 0,
+            "ExtraSizeAfter": 0,
+            "MarginBefore": 0,
+            "MarginAfter": 0,
+            "IsHorizontal": false,
+            "IsCircular": false,
+            "ItemTemplateName": "MenuElement",
+            "NumberofItems": 61,
+            "InitialElement": 0,
+            "ItemMargin": 0,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "Name": "scrollWheel",
+            "X": 35,
+            "Y": 8,
+            "Width": 390,
+            "Height": 256,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "overlay.png",
+            "Alpha": 255,
+            "Name": "overlay",
+            "X": -160,
+            "Y": -111,
+            "Width": 800,
+            "Height": 480,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "icon05.png",
+            "Alpha": 255,
+            "Name": "selectedIcon",
+            "X": 425,
+            "Y": 13,
+            "Width": 36,
+            "Height": 36,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId13",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "TextId": "SingleUseId14",
+              "UseBuffer": true,
+              "BufferSize": 10
+            },
+            "Name": "selectedVal",
+            "X": 431,
+            "Y": 1,
+            "Width": 48,
+            "Height": 49,
+            "Visible": false,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ScrollList",
+            "PaddingBefore": 0,
+            "PaddingAfter": 0,
+            "Snapping": false,
+            "IsHorizontal": false,
+            "IsCircular": false,
+            "ItemTemplateName": "MenuElement",
+            "NumberofItems": 10,
+            "InitialElement": 0,
+            "ItemMargin": 0,
+            "Easing": "Back",
+            "EasingOption": "Out",
+            "SwipeAcceleration": 1.0,
+            "DragAcceleration": 1.0,
+            "Name": "scrollList",
+            "X": 35,
+            "Y": 0,
+            "Width": 390,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Button",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 0,
+            "Name": "buttonwithalpha0_1",
+            "X": 411,
+            "Y": 13,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "Interaction1",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "buttonwithalpha0_1"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionCover",
+              "ScreenTransitionDirection": "East",
+              "ActionComponent": "Wifi"
+            }
+          }
+        ],
+        "Name": "Screen4",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId16",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Name": "ButtonSettings",
+            "X": 415,
+            "Y": 232,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "ChangeToScreenSettings",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonSettings"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Wifi_Settings"
+            }
+          }
+        ],
+        "Name": "Wifi",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "background_Screen2.png",
+            "Alpha": 255,
+            "Name": "ScreenSettings",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Box",
+            "Color": {
+              "Red": 184,
+              "Green": 183,
+              "Blue": 179
+            },
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 53,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId17",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "Wifi",
+            "X": 189,
+            "Y": 4,
+            "Width": 75,
+            "Height": 49,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId23",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Name": "ButtonSettings_Ok",
+            "X": 415,
+            "Y": 232,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId22",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Name": "ButtonSettings_Cancel",
+            "X": 0,
+            "Y": 232,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Color": {
+              "Red": 184,
+              "Green": 183,
+              "Blue": 179
+            },
+            "BorderColor": {
+              "Red": 107,
+              "Green": 105,
+              "Blue": 105
+            },
+            "BorderSize": 3,
+            "Alpha": 255,
+            "Name": "boxWithBorder1",
+            "X": 182,
+            "Y": 85,
+            "Width": 287,
+            "Height": 45,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId26",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 18
+            },
+            "Name": "textAreaID",
+            "X": 189,
+            "Y": 94,
+            "Width": 274,
+            "Height": 24,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "BoxWithBorder",
+            "Color": {
+              "Red": 184,
+              "Green": 183,
+              "Blue": 179
+            },
+            "BorderColor": {
+              "Red": 107,
+              "Green": 105,
+              "Blue": 105
+            },
+            "BorderSize": 5,
+            "Alpha": 255,
+            "Name": "boxWithBorder_PW",
+            "X": 182,
+            "Y": 167,
+            "Width": 287,
+            "Height": 45,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId21",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 0,
+              "Green": 0,
+              "Blue": 0
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "UseBuffer": true,
+              "BufferSize": 18
+            },
+            "Name": "textAreaID_PW",
+            "X": 189,
+            "Y": 177,
+            "Width": 274,
+            "Height": 24,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId19",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 252,
+              "Green": 252,
+              "Blue": 252
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea1",
+            "X": 109,
+            "Y": 95,
+            "Width": 51,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId20",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 242,
+              "Green": 241,
+              "Blue": 241
+            },
+            "Alpha": 255,
+            "AutoSize": true,
+            "LineSpacing": 0,
+            "Name": "textArea2",
+            "X": 75,
+            "Y": 177,
+            "Width": 94,
+            "Height": 25,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "FlexButton",
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "X": 0,
+                "Y": 0,
+                "Width": 287,
+                "Height": 44,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 0,
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Red": 0,
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Red": 0,
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ],
+            "Name": "flexButtonSSID",
+            "X": 182,
+            "Y": 86,
+            "Width": 287,
+            "Height": 44,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "FlexButton",
+            "Alpha": 0,
+            "ButtonTrigger": {
+              "Type": "ClickButtonTrigger"
+            },
+            "ButtonStyles": [
+              {
+                "Type": "BoxWithBorderButtonStyle",
+                "X": 0,
+                "Y": 0,
+                "Width": 287,
+                "Height": 45,
+                "LockToFlexButtonSize": true,
+                "BorderSize": 5,
+                "ColorReleased": {
+                  "Red": 0,
+                  "Green": 102,
+                  "Blue": 153
+                },
+                "ColorPressed": {
+                  "Red": 0,
+                  "Green": 153,
+                  "Blue": 204
+                },
+                "ColorBorderReleased": {
+                  "Red": 0,
+                  "Green": 51,
+                  "Blue": 102
+                },
+                "ColorBorderPressed": {
+                  "Red": 51,
+                  "Green": 102,
+                  "Blue": 153
+                }
+              }
+            ],
+            "Name": "flexButtonPassword",
+            "X": 182,
+            "Y": 167,
+            "Width": 287,
+            "Height": 45,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "InteractionButtonCanel",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonSettings_Cancel"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Wifi"
+            }
+          },
+          {
+            "InteractionName": "InteractionButtonSsid",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonSSID"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Wifi_Settings KeyboardSelectedVar",
+              "ParameterValue": "0",
+              "ActionComponent": "Wifi_Settings"
+            }
+          },
+          {
+            "InteractionName": "InteractionButtonPw",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "flexButtonPassword"
+            },
+            "Action": {
+              "Type": "ActionCustom2",
+              "ActionCustomTypeName": "Call Wifi_Settings KeyboardSelectedVar",
+              "ParameterValue": "1",
+              "ActionComponent": "Wifi_Settings"
+            }
+          },
+          {
+            "InteractionName": "InteractionKeyboardSelected",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerWhen",
+              "ActionCustomTypeName": "Call Wifi_Settings KeyboardSelectedVar"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "KeyboardSelected"
+            }
+          },
+          {
+            "InteractionName": "InteractionChangeToScreenboard",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "InteractionKeyboardSelected"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "ScreenKeyboard"
+            }
+          },
+          {
+            "InteractionName": "InteractionupdateScreen",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerScreenEntered"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "updateScreen"
+            }
+          }
+        ],
+        "CustomActions": [
+          {
+            "Name": "KeyboardSelectedVar",
+            "HasValue": true,
+            "ValueType": "uint8_t"
+          }
+        ],
+        "Name": "Wifi_Settings",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      },
+      {
+        "Components": [
+          {
+            "Type": "Image",
+            "RelativeFilename": "background_Screen2.png",
+            "Alpha": 255,
+            "Name": "box1",
+            "X": 0,
+            "Y": 0,
+            "Width": 480,
+            "Height": 272,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId24",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Name": "ButtonSettings_Cancel",
+            "X": 0,
+            "Y": 232,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "ButtonWithLabel",
+            "Pressed": "btn_round_pressednew.png",
+            "Released": "btn_roundnew.png",
+            "Alpha": 255,
+            "TextId": "SingleUseId25",
+            "ReleasedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "PressedColor": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "TextRotation": "0",
+            "Name": "ButtonSettings_Ok",
+            "X": 415,
+            "Y": 232,
+            "Width": 65,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [
+          {
+            "InteractionName": "InteractionButtonCancel",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonSettings_Cancel"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Wifi_Settings"
+            }
+          },
+          {
+            "InteractionName": "InteractionButtonOk",
+            "HasCompletedTrigger": true,
+            "Trigger": {
+              "Type": "TriggerClicked",
+              "TriggerComponent": "ButtonSettings_Ok"
+            },
+            "Action": {
+              "Type": "ActionCustom",
+              "FunctionName": "getBuffer"
+            }
+          },
+          {
+            "InteractionName": "InteractionChangeToScreenSettings",
+            "HasCompletedTrigger": false,
+            "Trigger": {
+              "Type": "TriggerInteractionCompleted",
+              "InteractionToTriggerOn": "InteractionButtonOk"
+            },
+            "Action": {
+              "Type": "ActionGotoScreen",
+              "ScreenTransitionType": "ScreenTransitionNone",
+              "ActionComponent": "Wifi_Settings"
+            }
+          }
+        ],
+        "Name": "ScreenKeyboard",
+        "OverrideDefaultBufferSize": false,
+        "CanvasBufferSize": 0
+      }
+    ],
+    "CustomContainerDefinitions": [
+      {
+        "Components": [
+          {
+            "Type": "TextArea",
+            "TextId": "SingleUseId15",
+            "TextRotation": "0",
+            "Color": {
+              "Red": 255,
+              "Green": 255,
+              "Blue": 255
+            },
+            "Alpha": 255,
+            "AutoSize": false,
+            "LineSpacing": 0,
+            "Wildcard1": {
+              "UseBuffer": false,
+              "BufferSize": 0
+            },
+            "Name": "text",
+            "X": 118,
+            "Y": 17,
+            "Width": 208,
+            "Height": 40,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          },
+          {
+            "Type": "Image",
+            "RelativeFilename": "__designer\\Dark_Icons_Home_32.png",
+            "Alpha": 255,
+            "Name": "image",
+            "X": 34,
+            "Y": 17,
+            "Width": 32,
+            "Height": 31,
+            "Visible": true,
+            "LockPosition": false,
+            "Draggable": false,
+            "Clickable": false,
+            "Fadeable": false,
+            "Moveable": false
+          }
+        ],
+        "Interactions": [],
+        "Name": "MenuElement",
+        "X": 0,
+        "Y": 0,
+        "Width": 390,
+        "Height": 64
+      }
+    ],
+    "TextEntries": [
+      {
+        "TextEntryId": "SingleUseId1",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId2",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId3",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId4",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId5",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId6",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId7",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId8",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId9",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId10",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId11",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId12",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId13",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId14",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId15",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId16",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId17",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId19",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId20",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId21",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId22",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId23",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId24",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId25",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "EnteredText",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "NumMode",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "AlphaMode",
+        "IsResource": true
+      },
+      {
+        "TextEntryId": "SingleUseId26",
+        "IsResource": false
+      },
+      {
+        "TextEntryId": "SingleUseId27",
+        "IsResource": false
+      }
+    ],
+    "Name": "STM32H7B3I-DK",
+    "Resolution": {
+      "Width": 480,
+      "Height": 272
+    },
+    "SelectedColorDepth": 24,
+    "StartupScreenName": "Main",
+    "SelectedStartupLanguage": "GB",
+    "Skin": "Blue",
+    "TouchGfxPath": "../Middlewares/ST/touchgfx",
+    "UIPath": ".",
+    "AvailableColorDepths": [
+      24
+    ],
+    "AvailableLCDs": {
+      "24": "LCD24bpp"
+    },
+    "AvailableSections": [
+      "ExtFlashSection",
+      "IntFlashSection"
+    ],
+    "AvailableResolutions": [
+      {
+        "Width": 480,
+        "Height": 272
+      }
+    ],
+    "PhysicalButtons": [],
+    "FrameworkFeatures": {
+      "LCD24bpp": {
+        "Id": "LCD24bpp",
+        "IsEnabled": true
+      }
+    },
+    "GenerateAssetsCommand": "make -f simulator/gcc/Makefile assets -j8",
+    "PostGenerateCommand": "touchgfx update_project --project-file=simulator/msvs/Application.vcxproj",
+    "PostGenerateTargetCommand": "touchgfx update_project --project-file=../STM32H7B3I-DK.ioc --platform=m7",
+    "CompileSimulatorCommand": "make -f simulator/gcc/Makefile -j8",
+    "RunSimulatorCommand": "build\\bin\\simulator.exe",
+    "CompileTargetCommandOverride": "make -f ../gcc/Makefile -j8",
+    "FlashTargetCommandOverride": "make -f ../gcc/Makefile flash",
+    "LandscapeSkinX": 0,
+    "LandscapeSkinY": 0,
+    "PortraitSkinX": 0,
+    "PortraitSkinY": 0,
+    "DisplayOrientation": "Landscape",
+    "Family": "STM32H7"
+  },
+  "Version": "4.15.0",
+  "CreatedBy": "4.15.0"
+}

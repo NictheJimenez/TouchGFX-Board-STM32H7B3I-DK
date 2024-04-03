@@ -1,0 +1,3 @@
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_timebase_tim.c:42:19:HAL_InitTick	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_timebase_tim.c:94:6:HAL_SuspendTick	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/stm32h7xx_hal_timebase_tim.c:106:6:HAL_ResumeTick	1

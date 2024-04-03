@@ -1,0 +1,14 @@
+../../Drivers/CMSIS/Include/core_cm7.h:2229:22:SCB_EnableICache	1
+../../Drivers/CMSIS/Include/core_cm7.h:2281:22:SCB_EnableDCache	3
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:91:5:main	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:180:6:SystemClock_Config	5
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:264:13:MX_CRC_Init	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:295:13:MX_DMA2D_Init	3
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:337:13:MX_I2C4_Init	4
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:383:13:MX_LTDC_Init	4
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:464:13:MX_OCTOSPI1_Init	4
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:520:13:MX_GPIO_Init	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:609:13:TouchGFX_Task	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:623:6:MPU_Config	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:701:6:HAL_TIM_PeriodElapsedCallback	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Core/Src/main.c:718:6:Error_Handler	1

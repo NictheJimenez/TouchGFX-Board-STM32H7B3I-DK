@@ -1,0 +1,103 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:125:14:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:touchgfx::Drawable::~Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:virtual touchgfx::Drawable::~Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:207:18:virtual void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:239:13:int16_t touchgfx::Drawable::getWidth() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:249:13:int16_t touchgfx::Drawable::getHeight() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:261:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:273:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:289:18:virtual void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:302:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:314:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:324:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:334:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:344:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:354:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:364:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:378:10:void touchgfx::Drawable::setVisible(bool)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:400:10:bool touchgfx::Drawable::isVisible() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:412:10:bool touchgfx::Drawable::isTouchable() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:451:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:488:10:void touchgfx::Drawable::resetDrawChainCache()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:566:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:50:13:touchgfx::Screen::~Screen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:50:13:virtual touchgfx::Screen::~Screen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:97:18:virtual void touchgfx::Screen::setupScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:108:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:119:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:148:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:158:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:touchgfx::Widget::~Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:virtual touchgfx::Widget::~Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:34:7:touchgfx::AbstractButton::~AbstractButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:34:7:virtual touchgfx::AbstractButton::~AbstractButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:42:13:touchgfx::DrawableListItemsInterface::~DrawableListItemsInterface()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:42:13:virtual touchgfx::DrawableListItemsInterface::~DrawableListItemsInterface()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:44:7:touchgfx::TextArea::~TextArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:44:7:virtual touchgfx::TextArea::~TextArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:touchgfx::Container::~Container()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:virtual touchgfx::Container::~Container()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:40:7:touchgfx::View<Screen4Presenter>::~View()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:40:7:virtual touchgfx::View<Screen4Presenter>::~View()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen4_screen/Screen4ViewBase.hpp:22:13:Screen4ViewBase::~Screen4ViewBase()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen4_screen/Screen4ViewBase.hpp:22:13:virtual Screen4ViewBase::~Screen4ViewBase()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen4_screen/Screen4ViewBase.hpp:30:18:virtual void Screen4ViewBase::scrollWheelUpdateItem(MenuElement&, int16_t)	1
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:Screen4View::~Screen4View()	1
+../../TouchGFX/gui/include/gui/screen4_screen/Screen4View.hpp:11:13:virtual Screen4View::~Screen4View()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:6:1:Screen4View::Screen4View()	4
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:20:6:virtual void Screen4View::setupScreen()	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:35:6:virtual void Screen4View::tearDownScreen()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:41:6:void Screen4View::scrollWheelAnimateToHandler(int16_t)	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:75:6:virtual void Screen4View::scrollListUpdateItem(MenuElement&, int16_t)	15
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:157:6:void Screen4View::scrollListItemSelectedHandler(int16_t)	15
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:209:6:virtual void Screen4View::scrollListSelected()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen4_screen/Screen4View.cpp:227:6:virtual void Screen4View::scrollWheelSelected()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:137:7:constexpr touchgfx::GenericCallback<short int>::GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:378:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = Screen4View; T1 = short int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:101:21:int16_t touchgfx::DrawableListItems<TYPE, SIZE>::getNumberOfDrawables() [with TYPE = MenuElement; int SIZE = 5]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = short int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = short int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:touchgfx::Callback<Screen4View, short int>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:virtual touchgfx::Callback<Screen4View, short int>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:42:7:touchgfx::Image::~Image()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:42:7:virtual touchgfx::Image::~Image()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:36:7:touchgfx::Box::~Box()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:36:7:virtual touchgfx::Box::~Box()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:117:7:touchgfx::DrawableList::~DrawableList()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:117:7:virtual touchgfx::DrawableList::~DrawableList()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp:43:7:touchgfx::ScrollBase::~ScrollBase()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollBase.hpp:43:7:virtual touchgfx::ScrollBase::~ScrollBase()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollWheelBase.hpp:40:7:touchgfx::ScrollWheelBase::~ScrollWheelBase()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollWheelBase.hpp:40:7:virtual touchgfx::ScrollWheelBase::~ScrollWheelBase()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollWheel.hpp:40:7:touchgfx::ScrollWheel::~ScrollWheel()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollWheel.hpp:40:7:virtual touchgfx::ScrollWheel::~ScrollWheel()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:touchgfx::DrawableListItems<MenuElement, 5>::~DrawableListItems()	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:virtual touchgfx::DrawableListItems<MenuElement, 5>::~DrawableListItems()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:34:7:touchgfx::ScrollList::~ScrollList()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/ScrollList.hpp:34:7:virtual touchgfx::ScrollList::~ScrollList()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:touchgfx::DrawableListItems<MenuElement, 6>::~DrawableListItems()	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:79:7:virtual touchgfx::DrawableListItems<MenuElement, 6>::~DrawableListItems()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:33:7:touchgfx::Button::~Button()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:33:7:virtual touchgfx::Button::~Button()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:touchgfx::Callback<Screen4ViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:virtual touchgfx::Callback<Screen4ViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:221:8:touchgfx::Callback<Screen4ViewBase, touchgfx::DrawableListItemsInterface*, short int, short int>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:221:8:virtual touchgfx::Callback<Screen4ViewBase, touchgfx::DrawableListItemsInterface*, short int, short int>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:392:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Screen4View; T1 = short int]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:402:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = Screen4View; T1 = short int]	5
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:51:13:touchgfx::GenericCallback<T1, T2, T3>::~GenericCallback() [with T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:51:13:touchgfx::GenericCallback<T1, T2, T3>::~GenericCallback() [with T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:82:23:touchgfx::Drawable* touchgfx::DrawableListItems<TYPE, SIZE>::getDrawable(int16_t) [with TYPE = MenuElement; int SIZE = 6]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:101:21:int16_t touchgfx::DrawableListItems<TYPE, SIZE>::getNumberOfDrawables() [with TYPE = MenuElement; int SIZE = 6]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/scrollers/DrawableList.hpp:82:23:touchgfx::Drawable* touchgfx::DrawableListItems<TYPE, SIZE>::getDrawable(int16_t) [with TYPE = MenuElement; int SIZE = 5]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:254:18:void touchgfx::Callback<dest_type, T1, T2, T3>::execute(T1, T2, T3) [with dest_type = Screen4ViewBase; T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:264:18:bool touchgfx::Callback<dest_type, T1, T2, T3>::isValid() const [with dest_type = Screen4ViewBase; T1 = touchgfx::DrawableListItemsInterface*; T2 = short int; T3 = short int]	5
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:392:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Screen4ViewBase; T1 = const touchgfx::AbstractButton&]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:402:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = Screen4ViewBase; T1 = const touchgfx::AbstractButton&]	5

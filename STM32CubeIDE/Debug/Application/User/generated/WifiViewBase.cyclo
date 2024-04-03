@@ -1,0 +1,76 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:94:5:touchgfx::colortype::colortype(uint32_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:130:5:touchgfx::Rect::Rect()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:146:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Bitmap.hpp:125:14:touchgfx::Bitmap::Bitmap(touchgfx::BitmapId)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:53:5:touchgfx::Drawable::Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:touchgfx::Drawable::~Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:virtual touchgfx::Drawable::~Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:207:18:virtual void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:261:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:273:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:289:18:virtual void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:302:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:314:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:324:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:334:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:344:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:354:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:364:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:400:10:bool touchgfx::Drawable::isVisible() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:412:10:bool touchgfx::Drawable::isTouchable() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:451:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:488:10:void touchgfx::Drawable::resetDrawChainCache()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:566:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:50:13:touchgfx::Screen::~Screen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:50:13:virtual touchgfx::Screen::~Screen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:97:18:virtual void touchgfx::Screen::setupScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:108:18:virtual void touchgfx::Screen::afterTransition()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:119:18:virtual void touchgfx::Screen::tearDownScreen()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:148:18:virtual void touchgfx::Screen::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:158:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:206:10:void touchgfx::Screen::add(touchgfx::Drawable&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:108:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:225:17:static touchgfx::LCD& touchgfx::HAL::lcd()	3
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:touchgfx::Widget::Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:touchgfx::Widget::~Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:virtual touchgfx::Widget::~Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:65:10:void touchgfx::AbstractButton::setAction(touchgfx::GenericCallback<const touchgfx::AbstractButton&>&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:34:7:touchgfx::AbstractButton::~AbstractButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:34:7:virtual touchgfx::AbstractButton::~AbstractButton()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:40:5:touchgfx::Box::Box()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:70:10:void touchgfx::Box::setColor(touchgfx::colortype)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:62:14:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:44:7:constexpr touchgfx::TypedText& touchgfx::TypedText::operator=(const touchgfx::TypedText&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:52:10:void touchgfx::ButtonWithLabel::setLabelText(touchgfx::TypedText)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:79:10:void touchgfx::ButtonWithLabel::setLabelColor(touchgfx::colortype)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:122:10:void touchgfx::ButtonWithLabel::setLabelColorPressed(touchgfx::colortype)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:187:10:void touchgfx::ButtonWithLabel::updateTextPosition()	2
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:40:7:touchgfx::View<WifiPresenter>::~View()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:40:7:virtual touchgfx::View<WifiPresenter>::~View()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/wifi_screen/WifiViewBase.hpp:17:13:WifiViewBase::~WifiViewBase()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/wifi_screen/WifiViewBase.hpp:17:13:virtual WifiViewBase::~WifiViewBase()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/wifi_screen/WifiViewBase.hpp:21:26:FrontendApplication& WifiViewBase::application()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:51:22:static touchgfx::colortype touchgfx::Color::getColorFrom24BitRGB(uint8_t, uint8_t, uint8_t)	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/generated/gui_generated/src/wifi_screen/WifiViewBase.cpp:9:1:WifiViewBase::WifiViewBase()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/generated/gui_generated/src/wifi_screen/WifiViewBase.cpp:31:6:virtual void WifiViewBase::setupScreen()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/generated/gui_generated/src/wifi_screen/WifiViewBase.cpp:36:6:void WifiViewBase::buttonCallbackHandler(const touchgfx::AbstractButton&)	2
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:43:5:touchgfx::View<T>::View() [with T = WifiPresenter]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:137:7:constexpr touchgfx::GenericCallback<const touchgfx::AbstractButton&>::GenericCallback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:378:5:touchgfx::Callback<dest_type, T1, void, void>::Callback(dest_type*, void (dest_type::*)(T1)) [with dest_type = WifiViewBase; T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:touchgfx::Callback<WifiViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:virtual touchgfx::Callback<WifiViewBase, const touchgfx::AbstractButton&>::~Callback()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:touchgfx::Container::~Container()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:virtual touchgfx::Container::~Container()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:36:7:touchgfx::Box::~Box()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:36:7:virtual touchgfx::Box::~Box()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:33:7:touchgfx::Button::~Button()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:33:7:virtual touchgfx::Button::~Button()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:40:7:touchgfx::ButtonWithLabel::~ButtonWithLabel()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:40:7:virtual touchgfx::ButtonWithLabel::~ButtonWithLabel()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:392:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = WifiViewBase; T1 = const touchgfx::AbstractButton&]	2
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:402:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = WifiViewBase; T1 = const touchgfx::AbstractButton&]	5

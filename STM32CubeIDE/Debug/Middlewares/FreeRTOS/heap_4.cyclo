@@ -1,0 +1,7 @@
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:113:7:pvPortMalloc	15
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:263:6:vPortFree	6
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:311:8:xPortGetFreeHeapSize	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:317:8:xPortGetMinimumEverFreeHeapSize	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:323:6:vPortInitialiseBlocks	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:329:13:prvHeapInit	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Middlewares/Third_Party/FreeRTOS/Source/portable/MemMang/heap_4.c:377:13:prvInsertBlockIntoFreeList	6

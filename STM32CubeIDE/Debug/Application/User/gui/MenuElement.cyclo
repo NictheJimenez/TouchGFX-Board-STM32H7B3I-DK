@@ -1,0 +1,42 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:touchgfx::Drawable::~Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:virtual touchgfx::Drawable::~Drawable()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:207:18:virtual void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:229:13:int16_t touchgfx::Drawable::getY() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:249:13:int16_t touchgfx::Drawable::getHeight() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:261:18:virtual void touchgfx::Drawable::setX(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:273:18:virtual void touchgfx::Drawable::setY(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:289:18:virtual void touchgfx::Drawable::setXY(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:302:18:virtual void touchgfx::Drawable::setWidth(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:314:18:virtual void touchgfx::Drawable::setHeight(int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:324:18:virtual void touchgfx::Drawable::childGeometryChanged()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:334:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:344:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:354:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:364:18:virtual void touchgfx::Drawable::handleTickEvent()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:400:10:bool touchgfx::Drawable::isVisible() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:412:10:bool touchgfx::Drawable::isTouchable() const	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:451:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:488:10:void touchgfx::Drawable::resetDrawChainCache()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:566:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	4
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:touchgfx::Widget::~Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:virtual touchgfx::Widget::~Widget()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:44:7:touchgfx::TextArea::~TextArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:44:7:virtual touchgfx::TextArea::~TextArea()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:touchgfx::Container::~Container()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:virtual touchgfx::Container::~Container()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/containers/MenuElementBase.hpp:16:13:MenuElementBase::~MenuElementBase()	1
+../../TouchGFX/generated/gui_generated/include/gui_generated/containers/MenuElementBase.hpp:16:13:virtual MenuElementBase::~MenuElementBase()	1
+../../TouchGFX/gui/include/gui/containers/MenuElement.hpp:13:13:MenuElement::~MenuElement()	1
+../../TouchGFX/gui/include/gui/containers/MenuElement.hpp:13:13:virtual MenuElement::~MenuElement()	1
+../../TouchGFX/gui/include/gui/containers/MenuElement.hpp:53:10:void MenuElement::offset(int16_t)	1
+../../TouchGFX/gui/include/gui/containers/MenuElement.hpp:61:20:virtual void MenuElement::setY(int16_t)	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/containers/MenuElement.cpp:3:1:MenuElement::MenuElement()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/containers/MenuElement.cpp:8:6:virtual void MenuElement::initialize()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/containers/MenuElement.cpp:21:6:void MenuElement::updateImage(touchgfx::Bitmap)	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:42:7:touchgfx::Image::~Image()	1
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:42:7:virtual touchgfx::Image::~Image()	1

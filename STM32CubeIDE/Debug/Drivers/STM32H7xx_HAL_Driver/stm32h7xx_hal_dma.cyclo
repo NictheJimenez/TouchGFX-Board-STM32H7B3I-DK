@@ -1,0 +1,17 @@
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:198:19:HAL_DMA_Init	95
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:436:19:HAL_DMA_DeInit	80
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:591:19:HAL_DMA_Start	36
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:647:19:HAL_DMA_Start_IT	82
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:747:19:HAL_DMA_Abort	106
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:863:19:HAL_DMA_Abort_IT	79
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:947:19:HAL_DMA_PollForTransfer	112
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1174:6:HAL_DMA_IRQHandler	230
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1544:19:HAL_DMA_RegisterCallback	10
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1610:19:HAL_DMA_UnRegisterCallback	11
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1701:22:HAL_DMA_GetState	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1712:10:HAL_DMA_GetError	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1738:13:DMA_SetConfig	63
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1825:17:DMA_CalcBaseAndBitshift	19
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1861:26:DMA_CheckFifoParam	15
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1955:13:DMA_CalcDMAMUXChannelBaseAndMask	12
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_dma.c:1990:13:DMA_CalcDMAMUXRequestGenBaseAndMask	12

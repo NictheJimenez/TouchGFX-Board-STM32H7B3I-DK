@@ -1,0 +1,89 @@
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:94:5:touchgfx::colortype::colortype(uint32_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:130:5:touchgfx::Rect::Rect()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/Types.hpp:146:5:touchgfx::Rect::Rect(int16_t, int16_t, int16_t, int16_t)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:53:5:touchgfx::Drawable::Drawable()	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:touchgfx::Drawable::~Drawable()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:64:13:virtual touchgfx::Drawable::~Drawable()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:207:18:virtual void touchgfx::Drawable::setPosition(int16_t, int16_t, int16_t, int16_t)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:261:18:virtual void touchgfx::Drawable::setX(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:273:18:virtual void touchgfx::Drawable::setY(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:289:18:virtual void touchgfx::Drawable::setXY(int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:302:18:virtual void touchgfx::Drawable::setWidth(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:314:18:virtual void touchgfx::Drawable::setHeight(int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:324:18:virtual void touchgfx::Drawable::childGeometryChanged()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:334:18:virtual void touchgfx::Drawable::handleClickEvent(const touchgfx::ClickEvent&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:344:18:virtual void touchgfx::Drawable::handleGestureEvent(const touchgfx::GestureEvent&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:354:18:virtual void touchgfx::Drawable::handleDragEvent(const touchgfx::DragEvent&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:364:18:virtual void touchgfx::Drawable::handleTickEvent()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:400:10:bool touchgfx::Drawable::isVisible() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:412:10:bool touchgfx::Drawable::isTouchable() const	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:451:18:virtual void touchgfx::Drawable::moveTo(int16_t, int16_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:488:10:void touchgfx::Drawable::resetDrawChainCache()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Drawable.hpp:566:18:virtual void touchgfx::Drawable::setupDrawChain(const touchgfx::Rect&, touchgfx::Drawable**)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:50:13:touchgfx::Screen::~Screen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:50:13:virtual touchgfx::Screen::~Screen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:97:18:virtual void touchgfx::Screen::setupScreen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:108:18:virtual void touchgfx::Screen::afterTransition()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:119:18:virtual void touchgfx::Screen::tearDownScreen()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:148:18:virtual void touchgfx::Screen::handleTickEvent()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:158:18:virtual void touchgfx::Screen::handleKeyEvent(uint8_t)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Screen.hpp:206:10:void touchgfx::Screen::add(touchgfx::Drawable&)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:108:17:static touchgfx::HAL* touchgfx::HAL::getInstance()	4	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/hal/HAL.hpp:225:17:static touchgfx::LCD& touchgfx::HAL::lcd()	4	static
+../../TouchGFX/gui/include/gui/model/Model.hpp:18:10:void Model::saveHour(int16_t)	16	static
+../../TouchGFX/gui/include/gui/model/Model.hpp:23:14:void Model::saveMinute(int16_t)	16	static
+../../TouchGFX/gui/include/gui/model/Model.hpp:28:17:int16_t Model::getHour()	16	static
+../../TouchGFX/gui/include/gui/model/Model.hpp:33:17:int16_t Model::getMinute()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:29:10:void Screen2Presenter::saveHour(int16_t)	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:34:13:void Screen2Presenter::saveMinute(int16_t)	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:39:16:int16_t Screen2Presenter::getHour()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2Presenter.hpp:44:16:int16_t Screen2Presenter::getMinute()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:50:18:virtual void touchgfx::Widget::getLastChild(int16_t, int16_t, touchgfx::Drawable**)	24	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:touchgfx::Widget::Widget()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:touchgfx::Widget::~Widget()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Widget.hpp:39:7:virtual touchgfx::Widget::~Widget()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:34:7:touchgfx::AbstractButton::~AbstractButton()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/AbstractButton.hpp:34:7:virtual touchgfx::AbstractButton::~AbstractButton()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:62:14:touchgfx::TypedText::TypedText(touchgfx::TypedTextId)	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:touchgfx::TypedText::~TypedText()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/TypedText.hpp:68:13:virtual touchgfx::TypedText::~TypedText()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:47:5:touchgfx::TextArea::TextArea()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:44:7:touchgfx::TextArea::~TextArea()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextArea.hpp:44:7:virtual touchgfx::TextArea::~TextArea()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:40:5:touchgfx::TextAreaWithOneWildcard::TextAreaWithOneWildcard()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:61:10:void touchgfx::TextAreaWithOneWildcard::setWildcard(const UnicodeChar*)	16	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:40:7:touchgfx::View<Screen2Presenter>::~View()	16	static
+../../Middlewares/ST/touchgfx/framework/include/mvp/View.hpp:40:7:virtual touchgfx::View<Screen2Presenter>::~View()	16	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen2_screen/Screen2ViewBase.hpp:21:13:Screen2ViewBase::~Screen2ViewBase()	16	static
+../../TouchGFX/generated/gui_generated/include/gui_generated/screen2_screen/Screen2ViewBase.hpp:21:13:virtual Screen2ViewBase::~Screen2ViewBase()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp:14:13:Screen2View::~Screen2View()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp:14:13:virtual Screen2View::~Screen2View()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp:23:18:virtual void Screen2View::buttonSaveHourClicked()	16	static
+../../TouchGFX/gui/include/gui/screen2_screen/Screen2View.hpp:28:22:virtual void Screen2View::buttonSaveMinuteClicked()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Color.hpp:51:22:static touchgfx::colortype touchgfx::Color::getColorFrom24BitRGB(uint8_t, uint8_t, uint8_t)	24	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:5:1:Screen2View::Screen2View()	16	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:10:6:virtual void Screen2View::setupScreen()	32	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:27:6:virtual void Screen2View::updateTxt(int)	16	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:38:6:virtual void Screen2View::tearDownScreen()	16	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:45:6:virtual void Screen2View::buttonHourUpClicked()	16	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:56:6:virtual void Screen2View::buttonHourDownClicked()	16	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:67:6:virtual void Screen2View::buttonMinuteUpClicked()	16	static
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/screen2_screen/Screen2View.cpp:78:6:virtual void Screen2View::buttonMinuteDownClicked()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:touchgfx::Container::~Container()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/containers/Container.hpp:42:7:virtual touchgfx::Container::~Container()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:36:7:touchgfx::Box::~Box()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Box.hpp:36:7:virtual touchgfx::Box::~Box()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:42:7:touchgfx::Image::~Image()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Image.hpp:42:7:virtual touchgfx::Image::~Image()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:7:touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/TextAreaWithWildcard.hpp:37:7:virtual touchgfx::TextAreaWithOneWildcard::~TextAreaWithOneWildcard()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:33:7:touchgfx::Button::~Button()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/Button.hpp:33:7:virtual touchgfx::Button::~Button()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:40:7:touchgfx::ButtonWithLabel::~ButtonWithLabel()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/widgets/ButtonWithLabel.hpp:40:7:virtual touchgfx::ButtonWithLabel::~ButtonWithLabel()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:touchgfx::Callback<Screen2ViewBase, const touchgfx::AbstractButton&>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:362:8:virtual touchgfx::Callback<Screen2ViewBase, const touchgfx::AbstractButton&>::~Callback()	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:141:13:touchgfx::GenericCallback<T1, void, void>::~GenericCallback() [with T1 = const touchgfx::AbstractButton&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:392:18:void touchgfx::Callback<dest_type, T1, void, void>::execute(T1) [with dest_type = Screen2ViewBase; T1 = const touchgfx::AbstractButton&]	16	static
+../../Middlewares/ST/touchgfx/framework/include/touchgfx/Callback.hpp:402:18:bool touchgfx::Callback<dest_type, T1, void, void>::isValid() const [with dest_type = Screen2ViewBase; T1 = const touchgfx::AbstractButton&]	16	static

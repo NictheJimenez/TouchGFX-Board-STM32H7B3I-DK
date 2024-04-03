@@ -1,0 +1,14 @@
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:190:19:HAL_RCC_DeInit	18
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:401:26:HAL_RCC_OscConfig	79
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:881:19:HAL_RCC_ClockConfig	36
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1231:6:HAL_RCC_MCOConfig	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1285:6:HAL_RCC_EnableCSS	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1294:6:HAL_RCC_DisableCSS	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1333:10:HAL_RCC_GetSysClockFreq	12
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1430:10:HAL_RCC_GetHCLKFreq	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1447:10:HAL_RCC_GetPCLK1Freq	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1465:10:HAL_RCC_GetPCLK2Freq	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1482:6:HAL_RCC_GetOscConfig	12
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1648:6:HAL_RCC_GetClockConfig	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1704:6:HAL_RCC_NMI_IRQHandler	2
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/Drivers/STM32H7xx_HAL_Driver/Src/stm32h7xx_hal_rcc.c:1721:13:HAL_RCC_CSSCallback	1

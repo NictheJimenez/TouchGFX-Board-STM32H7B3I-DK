@@ -1,0 +1,13 @@
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:40:18:virtual void touchgfx::Presenter::activate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:50:18:virtual void touchgfx::Presenter::deactivate()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:55:13:touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:55:13:virtual touchgfx::Presenter::~Presenter()	1
+../../Middlewares/ST/touchgfx/framework/include/mvp/Presenter.hpp:61:5:touchgfx::Presenter::Presenter()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:18:5:ModelListener::ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:13:ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/model/ModelListener.hpp:20:13:virtual ModelListener::~ModelListener()	1
+../../TouchGFX/gui/include/gui/wifi_settings_screen/Wifi_SettingsPresenter.hpp:28:13:Wifi_SettingsPresenter::~Wifi_SettingsPresenter()	1
+../../TouchGFX/gui/include/gui/wifi_settings_screen/Wifi_SettingsPresenter.hpp:28:13:virtual Wifi_SettingsPresenter::~Wifi_SettingsPresenter()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/wifi_settings_screen/Wifi_SettingsPresenter.cpp:4:1:Wifi_SettingsPresenter::Wifi_SettingsPresenter(Wifi_SettingsView&)	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/wifi_settings_screen/Wifi_SettingsPresenter.cpp:10:6:virtual void Wifi_SettingsPresenter::activate()	1
+G:/Projects_Nicthe_Jimenez/TouchGFX/TouchGFXProjects/MyApplication/TouchGFX/gui/src/wifi_settings_screen/Wifi_SettingsPresenter.cpp:15:6:virtual void Wifi_SettingsPresenter::deactivate()	1
